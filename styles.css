@@ -18,17 +18,24 @@ body {
 
 .score {
   position: absolute;
+  padding: 7px 17px;
+  right: 2vmin;
+  top: 0;
   font-size: 3vmin;
-  right: 1vmin;
-  top: 1vmin;
+  font-family: monospace;
+  color: white;
+  background: #4c7c37;
+  border-radius: 28px;
 }
 
 .start-screen {
   position: absolute;
-  font-size: 5vmin;
-  top: 50%;
+  top: 0;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateX(-50%);
+  font-size: 5vmin;
+  font-family: monospace;
+  color: #4c7c37;
 }
 
 .hide {
